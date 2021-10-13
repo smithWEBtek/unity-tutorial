@@ -4,28 +4,69 @@ using UnityEngine;
 
 public class Player
 {
-    int health;
-    int power;
-    string name;
+    private int _health;
+    private int _power;
+    private string _name;
 
-    // a class is a blueprint for creating objects
-    // a constructor, named same as class name
+    public int Health
+    {
+        get {
+            return _health;
+        }
+
+        set {
+            _health = value;
+        }
+    }
+
+    public int Power
+    {
+        get
+        {
+            return _power;
+        }
+        set
+        {
+            _power = value;
+        }
+    }
+
+
+    public string Name
+    {
+        set
+        {
+            _name = value;
+        }
+        get
+        {
+            return _name;
+        }
+    }
+
+
     public Player(int health, int power, string name){
-        this.health = health;
-        this.power = power;
-        this.name = name;
+        Health = health;
+        Power = power;
+        Name = name;
     }
     
     public void Attack(){
-        // same things
-        // Debug.Log(this.name + " is attacking!");
-        Debug.Log(name + " is attacking!");
+        Debug.Log(Name + " is attacking!");
     }
 
     public void Info(){
-        Debug.Log("Health is: " + this.health);
-        Debug.Log("Power is: " + this.power);
-        Debug.Log("Name is: " + this.name);
+        Debug.Log("Health is: " + Health);
+        Debug.Log("Power is: " + Power);
+        Debug.Log("Name is: " + Name);
     }
 
+    //public void SetHealth(int health){
+    //    this.health = health;
+    //}
+
+    //public int GetHealth(){
+    //    //return this.health;
+    //    return health;
+    //}
 }
