@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CoRouting1.cs" />
      <Compile Include="Assets\Scripts\LearningHowToProgram.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

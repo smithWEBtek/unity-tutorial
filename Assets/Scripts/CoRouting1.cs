@@ -8,9 +8,9 @@ public class CoRouting1 : MonoBehaviour
     void Start()
     {
 
-      Debug.Log("Start executed ... ");
+      // Debug.Log("Start executed ... ");
       // ExecuteSomething();
-      StartCoroutine(ExecuteAnotherThing(2));
+      // StartCoroutine(ExecuteAnotherThing(2));
       // StartCoroutine("ExecuteAnotherThing");
       // StopCoroutine("ExecuteAnotherThing");
     }
