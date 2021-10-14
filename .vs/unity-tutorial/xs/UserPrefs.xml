@@ -1,21 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/LearningHowToProgram.cs" Line="17" Column="20" />
-      <File FileName="Assets/Scripts/Player.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/Player.cs" Line="61" Column="37" />
+      <File FileName="Assets/Scripts/LearningHowToProgram.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="unity-tutorial" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Player.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="unity-tutorial" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
