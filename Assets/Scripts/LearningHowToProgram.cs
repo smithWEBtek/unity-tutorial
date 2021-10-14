@@ -9,22 +9,16 @@ public class LearningHowToProgram : MonoBehaviour
 
     private void Start()
     {
-        // Player warrior = new Player();
-        warrior = new Player(30, 22, "Fred");
-        // archer = new Player(20, 31, "Archer");
-
+        // creating warrior using Warrior class
+        Warrior warrior = new Warrior(3, 5, "Warror");
         warrior.Info();
         warrior.Attack();
-        //Debug.Log("warrior.health is: " + warrior.GetHealth());
 
-        warrior.Health = 201;
-        Debug.Log("warrior health is: " + warrior.Health);
+    }
 
-        warrior.Power = 32;
-        Debug.Log("warrior power is: " + warrior.Power);
 
-        warrior.Name = "Charlie";
-        Debug.Log("warror name is: " + warrior.Name);
+    private void Update()
+    {
 
     }
 }
