@@ -44,15 +44,22 @@ public class Player
         }
     }
 
+    // the public constructor
+    public Player() { }
 
     public Player(int health, int power, string name){
         Health = health;
         Power = power;
         Name = name;
     }
-    
-    public void Attack(){
-        Debug.Log(Name + " is attacking!");
+
+    //public void Attack(){
+    //    Debug.Log(Name + " is attacking!");
+    //}
+
+    public virtual void Attack()
+    {
+        Debug.Log("Player is attacking with fire!");
     }
 
     public void Info(){

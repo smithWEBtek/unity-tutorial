@@ -1,20 +1,27 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+﻿<Properties StartupConfiguration="{09AA4581-4C46-6270-820D-06DD6D505031}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Warrior.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="61" Column="37" />
-      <File FileName="Assets/Scripts/LearningHowToProgram.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/Player.cs" Line="65" Column="1" />
+      <File FileName="Assets/Scripts/LearningHowToProgram.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/Warrior.cs" Line="13" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="unity-tutorial" expanded="True" selected="True" />
+          <Node name="unity-tutorial" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Warrior.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0f02fee5-3aee-4477-927a-c6a61d98eae1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="80d95ceb-76d2-4205-b7ac-2e790862c10d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
