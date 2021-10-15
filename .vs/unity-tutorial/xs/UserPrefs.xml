@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{09AA4581-4C46-6270-820D-06DD6D505031}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Warrior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LearningHowToProgram.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="65" Column="1" />
-      <File FileName="Assets/Scripts/LearningHowToProgram.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/Warrior.cs" Line="13" Column="27" />
+      <File FileName="Assets/Scripts/Player.cs" Line="60" Column="19" />
+      <File FileName="Assets/Scripts/Warrior.cs" Line="19" Column="2" />
+      <File FileName="Assets/Scripts/LearningHowToProgram.cs" Line="32" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,7 @@
           <Node name="unity-tutorial" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Warrior.cs" selected="True" />
+                <Node name="LearningHowToProgram.cs" selected="True" />
               </Node>
             </Node>
           </Node>
